@@ -53,7 +53,6 @@ router.post('/create', async (req, res) => {
 
 // Login
 router.post('/login', async (req, res) => {
-  console.log('login function: ', req.body);
   try {
     const user = await User.findOne({ email: req.body.email });
     if (!user) {
