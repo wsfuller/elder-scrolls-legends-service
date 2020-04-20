@@ -9,8 +9,11 @@ const PORT = process.env.PORT || 8080;
 const userRoutes = require('./routes/users');
 const favoriteRoutes = require('./routes/favorites');
 
-app.use(express.json());
+app.get('/', (req, res) => {
+  res.send('Welcome to the Elder Scrolls Legends Service');
+});
 
+app.use(express.json());
 app.use('/api/v1/users', userRoutes);
 app.use('/api/v1/favorites', favoriteRoutes);
 
