@@ -2,13 +2,16 @@
   "name": "elder-scrolls-legends-service",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "start": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "engines": {
+    "node": "10.x"
+  },
   "keywords": [],
-  "author": "",
+  "author": "wsfuller.dev@gmail.com",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^4.0.1",
