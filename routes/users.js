@@ -4,16 +4,6 @@ const User = require('../models/User');
 const jwt = require('jsonwebtoken');
 const router = express.Router();
 
-router.get('/', (req, res) => {
-  res.send('you got users breh');
-  // try {
-  //   const education = await Education.find();
-  //   res.json(education);
-  // } catch (err) {
-  //   res.json({ message: err });
-  // }
-});
-
 // Create
 router.post('/create', async (req, res) => {
   const {
