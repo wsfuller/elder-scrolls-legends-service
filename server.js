@@ -14,4 +14,4 @@ app.use(express.json());
 app.use('/api/v1/users', userRoutes);
 app.use('/api/v1/favorites', favoriteRoutes);
 
-app.listen(PORT, () => console.log(`Service is running on ${PORT}`));
+app.listen(PORT, () => console.log(`Service is running on port: ${PORT}`));
