@@ -7,6 +7,7 @@ This is a Node + Express + MongoDB companion API for authentication and user dat
 `Service API << (auth & user data storage) >> React Application << (card data) Elder Scrolls Legends API`
 
 **Why does this service exist?**
+
 Good question, the reason for this service is expanding on the functionality of the React Application. The React application pulls in data and displays is. Users can favorite cards and that data is stored locally in the browser. I wanted to take this favoriting ability to the next level. So this service was built using Node, Express, and Mongo to allow users to sign up, favorite cards, and have that data stored in a persistent location.
 
 **What does the Service do?**
