@@ -3,7 +3,7 @@ require('./utils/database');
 
 const express = require('express');
 const app = express();
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 1337;
 
 // ROUTES
 const userRoutes = require('./routes/users');
